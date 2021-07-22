@@ -1,0 +1,279 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+.body-home{
+    background-image: url(images/platter-2009590_1920.jpg);
+    background-position: center;
+    background-attachment: fixed;  /** background image wont move*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.body{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/****Home Page- Logo*****/
+
+#home-logo-img{
+    width: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  
+    
+}
+
+.header h1{
+    border: 5px solid;
+    text-align: center;
+   margin-left: auto;
+   margin-right:auto ;
+    width: 600px;
+    color: rgb(248, 8, 60);
+    font-size: 60px;
+    
+}
+
+.header a{
+    text-decoration: none;
+}
+
+
+
+/*******HOME PAGE MENU***********/
+
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(248, 8, 60);
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(248, 8, 60);
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+/***********Meals-PAGE************/
+.main-meals{
+    background-image: url(images/eating-601581_1920\ \(1\).jpg);
+    background-position: center;
+    background-attachment: fixed;  /** background image wont move*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.meals {
+    padding: 80px;
+  
+
+    
+}
+
+.meals-list a{
+
+    text-decoration: none;
+
+}
+.meals-list-item{
+
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+
+}
+.meals-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 15px;
+    padding-top: 10px;
+   
+}
+
+.meals-list-item p{
+    color: #291d1d;
+    font-size: 15px;
+    padding-left: 10px;
+    font-style: italic;
+    margin-top: -7px;
+}
+
+
+
+
+
+
+
+/***********Menu-Page************/
+
+.menu{
+    padding-top: 50px;
+    background-color: pink;
+
+}
+.menu-info img{
+    padding-top: 3px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 50%;
+    
+   
+}
+.menu-info h2{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    padding: 5px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 45%;
+
+}
+.menu-info h3{
+    font-size: 20px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.menu-info-details ol {
+    list-style-position: inside
+}
+
+
+
+.menu-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+
+#menu-info-price {
+    border: solid  rgb(248, 8, 60);
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    height: 30px;
+    padding-top: 8px;
+    width: 310px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+
+.menu-info-details label {
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.button {
+    background-color: rgb(248, 8, 60); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+/*****Thank You Page******/
+.body-thankyou{
+    background-image: url(images/restaurant-449952_1920.jpg);
+    background-position: center;
+    background-attachment: fixed;  /** background image wont move*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.thankyou p{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(7, 7, 7);
+   
+}
+
+.thankyou img{
+    margin-left: 595px;
+}
+
+/***********Responsive layout************/
+
+@media only screen and (min-width: 380px) {
+
+
+    .meals{
+        width: 80%;
+        margin: auto;
+        background-color: rgb(248, 8, 60);
+
+
+    }
+    .menu{
+        width: 80%;
+        margin: auto;
+
+    }
+    
+}
+ @media only screen and (min-width: 1000px){
+    .meals{
+        width: 60%;
+        margin: auto;
+
+
+    }
+    .recipe{
+        width: 60%;
+        margin: auto;
+
+    }
+ }
+
+ @media only screen and (min-width: 1500px){
+    .meals{
+        width: 40%;
+        margin: auto;
+
+
+    }
+    .recipe{
+        width: 40%;
+        margin: auto;
+
+    }
+ }
+
+
+
+
